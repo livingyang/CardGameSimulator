@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		279408051677108A00AD20CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408041677108A00AD20CD /* main.cpp */; };
+		279408071677108A00AD20CD /* CardGameSimulator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 279408061677108A00AD20CD /* CardGameSimulator.1 */; };
+		27940815167710B600AD20CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27940814167710B600AD20CD /* SenTestingKit.framework */; };
+		27940817167710B600AD20CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27940816167710B600AD20CD /* Cocoa.framework */; };
+		27940821167710B600AD20CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2794081F167710B600AD20CD /* InfoPlist.strings */; };
+		27940824167710B600AD20CD /* CardGameSimulatorUnitTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27940823167710B600AD20CD /* CardGameSimulatorUnitTest.mm */; };
+		2794082C1677179200AD20CD /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2794082A1677179200AD20CD /* Battle.cpp */; };
+		2794082D1677179200AD20CD /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2794082A1677179200AD20CD /* Battle.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		279407FE1677108A00AD20CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				279408071677108A00AD20CD /* CardGameSimulator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		279408001677108A00AD20CD /* CardGameSimulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CardGameSimulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		279408041677108A00AD20CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		279408061677108A00AD20CD /* CardGameSimulator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CardGameSimulator.1; sourceTree = "<group>"; };
+		27940812167710B600AD20CD /* CardGameSimulatorUnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGameSimulatorUnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27940814167710B600AD20CD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		27940816167710B600AD20CD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		27940819167710B600AD20CD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2794081A167710B600AD20CD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2794081B167710B600AD20CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2794081E167710B600AD20CD /* CardGameSimulatorUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardGameSimulatorUnitTest-Info.plist"; sourceTree = "<group>"; };
+		27940820167710B600AD20CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27940822167710B600AD20CD /* CardGameSimulatorUnitTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameSimulatorUnitTest.h; sourceTree = "<group>"; };
+		27940823167710B600AD20CD /* CardGameSimulatorUnitTest.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CardGameSimulatorUnitTest.mm; sourceTree = "<group>"; };
+		27940825167710B600AD20CD /* CardGameSimulatorUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardGameSimulatorUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		2794082A1677179200AD20CD /* Battle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battle.cpp; sourceTree = "<group>"; };
+		2794082B1677179200AD20CD /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = "<group>"; };
+		2794082E167717CD00AD20CD /* BattleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		279407FD1677108A00AD20CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2794080E167710B600AD20CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27940815167710B600AD20CD /* SenTestingKit.framework in Frameworks */,
+				27940817167710B600AD20CD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		279407F51677108900AD20CD = {
+			isa = PBXGroup;
+			children = (
+				279408031677108A00AD20CD /* CardGameSimulator */,
+				2794081C167710B600AD20CD /* CardGameSimulatorUnitTest */,
+				27940813167710B600AD20CD /* Frameworks */,
+				279408011677108A00AD20CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		279408011677108A00AD20CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				279408001677108A00AD20CD /* CardGameSimulator */,
+				27940812167710B600AD20CD /* CardGameSimulatorUnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		279408031677108A00AD20CD /* CardGameSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				279408291677177400AD20CD /* class */,
+				279408041677108A00AD20CD /* main.cpp */,
+				279408061677108A00AD20CD /* CardGameSimulator.1 */,
+			);
+			path = CardGameSimulator;
+			sourceTree = "<group>";
+		};
+		27940813167710B600AD20CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27940814167710B600AD20CD /* SenTestingKit.framework */,
+				27940816167710B600AD20CD /* Cocoa.framework */,
+				27940818167710B600AD20CD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27940818167710B600AD20CD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27940819167710B600AD20CD /* AppKit.framework */,
+				2794081A167710B600AD20CD /* CoreData.framework */,
+				2794081B167710B600AD20CD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2794081C167710B600AD20CD /* CardGameSimulatorUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				27940822167710B600AD20CD /* CardGameSimulatorUnitTest.h */,
+				27940823167710B600AD20CD /* CardGameSimulatorUnitTest.mm */,
+				2794081D167710B600AD20CD /* Supporting Files */,
+			);
+			path = CardGameSimulatorUnitTest;
+			sourceTree = "<group>";
+		};
+		2794081D167710B600AD20CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2794081E167710B600AD20CD /* CardGameSimulatorUnitTest-Info.plist */,
+				2794081F167710B600AD20CD /* InfoPlist.strings */,
+				27940825167710B600AD20CD /* CardGameSimulatorUnitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		279408291677177400AD20CD /* class */ = {
+			isa = PBXGroup;
+			children = (
+				2794082A1677179200AD20CD /* Battle.cpp */,
+				2794082B1677179200AD20CD /* Battle.h */,
+				2794082E167717CD00AD20CD /* BattleDefine.h */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		279407FF1677108A00AD20CD /* CardGameSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2794080A1677108A00AD20CD /* Build configuration list for PBXNativeTarget "CardGameSimulator" */;
+			buildPhases = (
+				279407FC1677108A00AD20CD /* Sources */,
+				279407FD1677108A00AD20CD /* Frameworks */,
+				279407FE1677108A00AD20CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardGameSimulator;
+			productName = CardGameSimulator;
+			productReference = 279408001677108A00AD20CD /* CardGameSimulator */;
+			productType = "com.apple.product-type.tool";
+		};
+		27940811167710B600AD20CD /* CardGameSimulatorUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27940826167710B600AD20CD /* Build configuration list for PBXNativeTarget "CardGameSimulatorUnitTest" */;
+			buildPhases = (
+				2794080D167710B600AD20CD /* Sources */,
+				2794080E167710B600AD20CD /* Frameworks */,
+				2794080F167710B600AD20CD /* Resources */,
+				27940810167710B600AD20CD /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardGameSimulatorUnitTest;
+			productName = CardGameSimulatorUnitTest;
+			productReference = 27940812167710B600AD20CD /* CardGameSimulatorUnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		279407F71677108900AD20CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "中 青宝";
+			};
+			buildConfigurationList = 279407FA1677108900AD20CD /* Build configuration list for PBXProject "CardGameSimulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 279407F51677108900AD20CD;
+			productRefGroup = 279408011677108A00AD20CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				279407FF1677108A00AD20CD /* CardGameSimulator */,
+				27940811167710B600AD20CD /* CardGameSimulatorUnitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2794080F167710B600AD20CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27940821167710B600AD20CD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27940810167710B600AD20CD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		279407FC1677108A00AD20CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279408051677108A00AD20CD /* main.cpp in Sources */,
+				2794082C1677179200AD20CD /* Battle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2794080D167710B600AD20CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27940824167710B600AD20CD /* CardGameSimulatorUnitTest.mm in Sources */,
+				2794082D1677179200AD20CD /* Battle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2794081F167710B600AD20CD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27940820167710B600AD20CD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		279408081677108A00AD20CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		279408091677108A00AD20CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2794080B1677108A00AD20CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2794080C1677108A00AD20CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27940827167710B600AD20CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGameSimulatorUnitTest/CardGameSimulatorUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "CardGameSimulatorUnitTest/CardGameSimulatorUnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		27940828167710B600AD20CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardGameSimulatorUnitTest/CardGameSimulatorUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "CardGameSimulatorUnitTest/CardGameSimulatorUnitTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		279407FA1677108900AD20CD /* Build configuration list for PBXProject "CardGameSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				279408081677108A00AD20CD /* Debug */,
+				279408091677108A00AD20CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2794080A1677108A00AD20CD /* Build configuration list for PBXNativeTarget "CardGameSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2794080B1677108A00AD20CD /* Debug */,
+				2794080C1677108A00AD20CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27940826167710B600AD20CD /* Build configuration list for PBXNativeTarget "CardGameSimulatorUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27940827167710B600AD20CD /* Debug */,
+				27940828167710B600AD20CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 279407F71677108900AD20CD /* Project object */;
+}
