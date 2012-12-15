@@ -15,14 +15,19 @@
 		27940824167710B600AD20CD /* CardGameSimulatorUnitTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27940823167710B600AD20CD /* CardGameSimulatorUnitTest.mm */; };
 		2794082C1677179200AD20CD /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2794082A1677179200AD20CD /* Battle.cpp */; };
 		2794082D1677179200AD20CD /* Battle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2794082A1677179200AD20CD /* Battle.cpp */; };
+		279408421678787E00AD20CD /* CardDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408401678787D00AD20CD /* CardDetail.cpp */; };
+		279408431678787E00AD20CD /* CardDetail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408401678787D00AD20CD /* CardDetail.cpp */; };
+		279408511678894800AD20CD /* CsvParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2794084F1678894700AD20CD /* CsvParser.cpp */; };
+		279408891679AFD000AD20CD /* CsvRecordObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408871679AFD000AD20CD /* CsvRecordObject.cpp */; };
+		2794088A1679D0C800AD20CD /* CsvRecordObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408871679AFD000AD20CD /* CsvRecordObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		279407FE1677108A00AD20CD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = usr/share/man/man1;
+			dstSubfolderSpec = 16;
 			files = (
 				279408071677108A00AD20CD /* CardGameSimulator.1 in CopyFiles */,
 			);
@@ -48,6 +53,13 @@
 		2794082A1677179200AD20CD /* Battle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Battle.cpp; sourceTree = "<group>"; };
 		2794082B1677179200AD20CD /* Battle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Battle.h; sourceTree = "<group>"; };
 		2794082E167717CD00AD20CD /* BattleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleDefine.h; sourceTree = "<group>"; };
+		279408401678787D00AD20CD /* CardDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardDetail.cpp; sourceTree = "<group>"; };
+		279408411678787D00AD20CD /* CardDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetail.h; sourceTree = "<group>"; };
+		2794084A1678827D00AD20CD /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		2794084F1678894700AD20CD /* CsvParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CsvParser.cpp; sourceTree = "<group>"; };
+		279408501678894800AD20CD /* CsvParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsvParser.h; sourceTree = "<group>"; };
+		279408871679AFD000AD20CD /* CsvRecordObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CsvRecordObject.cpp; sourceTree = "<group>"; };
+		279408881679AFD000AD20CD /* CsvRecordObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsvRecordObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +104,7 @@
 		279408031677108A00AD20CD /* CardGameSimulator */ = {
 			isa = PBXGroup;
 			children = (
+				279408451678814700AD20CD /* csv */,
 				279408291677177400AD20CD /* class */,
 				279408041677108A00AD20CD /* main.cpp */,
 				279408061677108A00AD20CD /* CardGameSimulator.1 */,
@@ -132,6 +145,7 @@
 		2794081D167710B600AD20CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2794084A1678827D00AD20CD /* test.csv */,
 				2794081E167710B600AD20CD /* CardGameSimulatorUnitTest-Info.plist */,
 				2794081F167710B600AD20CD /* InfoPlist.strings */,
 				27940825167710B600AD20CD /* CardGameSimulatorUnitTest-Prefix.pch */,
@@ -145,8 +159,21 @@
 				2794082A1677179200AD20CD /* Battle.cpp */,
 				2794082B1677179200AD20CD /* Battle.h */,
 				2794082E167717CD00AD20CD /* BattleDefine.h */,
+				279408401678787D00AD20CD /* CardDetail.cpp */,
+				279408411678787D00AD20CD /* CardDetail.h */,
 			);
 			name = class;
+			sourceTree = "<group>";
+		};
+		279408451678814700AD20CD /* csv */ = {
+			isa = PBXGroup;
+			children = (
+				2794084F1678894700AD20CD /* CsvParser.cpp */,
+				279408501678894800AD20CD /* CsvParser.h */,
+				279408871679AFD000AD20CD /* CsvRecordObject.cpp */,
+				279408881679AFD000AD20CD /* CsvRecordObject.h */,
+			);
+			name = csv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +275,9 @@
 			files = (
 				279408051677108A00AD20CD /* main.cpp in Sources */,
 				2794082C1677179200AD20CD /* Battle.cpp in Sources */,
+				279408421678787E00AD20CD /* CardDetail.cpp in Sources */,
+				279408511678894800AD20CD /* CsvParser.cpp in Sources */,
+				279408891679AFD000AD20CD /* CsvRecordObject.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2794088A1679D0C800AD20CD /* CsvRecordObject.cpp in Sources */,
 				27940824167710B600AD20CD /* CardGameSimulatorUnitTest.mm in Sources */,
 				2794082D1677179200AD20CD /* Battle.cpp in Sources */,
+				279408431678787E00AD20CD /* CardDetail.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

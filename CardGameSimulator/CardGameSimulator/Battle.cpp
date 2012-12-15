@@ -68,6 +68,28 @@ bool Battle::getCardSlotFromGround(CardSlot &cardSlot, CardSlotLocation cardSlot
     return true;
 }
 
+void Battle::setGeneralToGround(Card generalCard, CardSlotLocation cardSlotLocation)
+{
+    setCardToGround(generalCard, cardSlotLocation);
+}
+
+bool Battle::getGeneralFromGround(Card &generalCard, CardSlotLocation cardSlotLocation)
+{
+    CardSlot slot;
+    if (getCardSlotFromGround(slot, cardSlotLocation) == false)
+    {
+        return false;
+    }
+    
+    if (slot.hasCard)
+    {
+        generalCard = slot.card;
+        return true;
+    }
+    
+    return false;
+}
+
 int Battle::getCardAmoundFromGround(int groundIndex)
 {
     if (!betweenFunc(groundIndex, 0, MAX_BATTLE_GROUND))

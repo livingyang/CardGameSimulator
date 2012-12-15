@@ -20,6 +20,7 @@ typedef struct
 typedef struct
 {
     bool hasCard;
+    
     Card card;
 } CardSlot;
 

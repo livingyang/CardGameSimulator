@@ -34,6 +34,9 @@ public:
     
     bool getCardSlotFromGround(CardSlot &cardSlot, CardSlotLocation cardSlotLocation);
     
+    void setGeneralToGround(Card generalCard, CardSlotLocation cardSlotLocation);
+    bool getGeneralFromGround(Card &generalCard, CardSlotLocation cardSlotLocation);
+    
     int getCardAmoundFromGround(int groundIndex);
     
     bool moveCard(CardSlotLocation sourceLocation, CardSlotLocation targetLocation);
