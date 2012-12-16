@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18747F8D167DA86C00E552D3 /* test.csv in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2794084A1678827D00AD20CD /* test.csv */; };
 		279408051677108A00AD20CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 279408041677108A00AD20CD /* main.cpp */; };
-		279408071677108A00AD20CD /* CardGameSimulator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 279408061677108A00AD20CD /* CardGameSimulator.1 */; };
 		27940815167710B600AD20CD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27940814167710B600AD20CD /* SenTestingKit.framework */; };
 		27940817167710B600AD20CD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27940816167710B600AD20CD /* Cocoa.framework */; };
 		27940821167710B600AD20CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2794081F167710B600AD20CD /* InfoPlist.strings */; };
@@ -25,13 +25,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		279407FE1677108A00AD20CD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = usr/share/man/man1;
+			buildActionMask = 12;
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				279408071677108A00AD20CD /* CardGameSimulator.1 in CopyFiles */,
+				18747F8D167DA86C00E552D3 /* test.csv in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -55,7 +55,7 @@
 		2794082E167717CD00AD20CD /* BattleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BattleDefine.h; sourceTree = "<group>"; };
 		279408401678787D00AD20CD /* CardDetail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardDetail.cpp; sourceTree = "<group>"; };
 		279408411678787D00AD20CD /* CardDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardDetail.h; sourceTree = "<group>"; };
-		2794084A1678827D00AD20CD /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		2794084A1678827D00AD20CD /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = test.csv; path = CardGameSimulatorUnitTest/test.csv; sourceTree = SOURCE_ROOT; };
 		2794084F1678894700AD20CD /* CsvParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CsvParser.cpp; sourceTree = "<group>"; };
 		279408501678894800AD20CD /* CsvParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsvParser.h; sourceTree = "<group>"; };
 		279408871679AFD000AD20CD /* CsvRecordObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CsvRecordObject.cpp; sourceTree = "<group>"; };
@@ -108,6 +108,7 @@
 				279408291677177400AD20CD /* class */,
 				279408041677108A00AD20CD /* main.cpp */,
 				279408061677108A00AD20CD /* CardGameSimulator.1 */,
+				2794084A1678827D00AD20CD /* test.csv */,
 			);
 			path = CardGameSimulator;
 			sourceTree = "<group>";
@@ -145,7 +146,6 @@
 		2794081D167710B600AD20CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2794084A1678827D00AD20CD /* test.csv */,
 				2794081E167710B600AD20CD /* CardGameSimulatorUnitTest-Info.plist */,
 				2794081F167710B600AD20CD /* InfoPlist.strings */,
 				27940825167710B600AD20CD /* CardGameSimulatorUnitTest-Prefix.pch */,

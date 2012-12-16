@@ -13,9 +13,8 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    char filePath[] = "/Users/ZQP/Documents/GitWorkPlace/CardGameSimulator/CardGameSimulator/CardGameSimulatorUnitTest/test.csv";
+    char filePath[] = "test.csv";
     CsvParser parser(filePath);
-    return 0;
     while (parser.parseRow())
     {
         for(int i = 0; i < parser.getCurRecord().size(); i++)
